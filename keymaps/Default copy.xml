@@ -8,16 +8,30 @@
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.NextPage" />
+  <action id="DecMaxAction" />
   <action id="Diff.ShowDiff" />
   <action id="EditorDuplicate" />
   <action id="EditorSelectWord" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoTest" />
+  <action id="HtmlTableCellNavigateDown" />
+  <action id="HtmlTableCellNavigateRight" />
+  <action id="HtmlTableCellNavigateUp" />
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+  </action>
+  <action id="NextOccurence" />
+  <action id="NextProjectWindow" />
   <action id="ParameterInfo" />
+  <action id="PreviousProjectWindow" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="ctrl alt f" />
@@ -38,6 +52,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt p" />
   </action>
   <action id="ShowUmlDiagramPopup" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
@@ -53,6 +73,11 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+  </action>
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
   <action id="WebDeployment.ToggleAutoUpload">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
