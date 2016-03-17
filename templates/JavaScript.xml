@@ -1,13 +1,16 @@
 <templateSet group="JavaScript">
-  <template name="cl" value="console.log($END$);" description="Console Log" toReformat="true" toShortenFQNames="true">
+  <template name="ready" value="jQuery(document).ready(function($$) {&#10;    $END$&#10;});" description="Ready up jQuery." toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="true" />
-      <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log($END$);" description="console.log()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
