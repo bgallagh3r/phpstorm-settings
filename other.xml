@@ -15,6 +15,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="C:/Program Files/nodejs/node.exe" />
+  </component>
   <component name="PhpRefactoringSettings">
     <option name="EXTRACT_FIELD_DEFAULT_VISIBILITY" value="protected" />
   </component>
