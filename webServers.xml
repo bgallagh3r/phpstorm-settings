@@ -6,10 +6,11 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="b4ef275b-184b-4117-ac7a-1e36dba3cfcd" name="CRMS" url="http://crm.dev">
-        <fileTransfer accessType="LOCAL" />
+        <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
       <webServer id="a20d0496-f4ff-49eb-a6f8-0e7561a75451" name="Homestead" url="http://homestead.app:8000">
         <fileTransfer accessType="LOCAL" />
@@ -19,6 +20,7 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="61c4bb19-127a-4bf4-a388-ff2f30f0c928" name="Okes" url="http://okesauto.ca">
@@ -26,6 +28,7 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="36ab0c04-4546-4331-96d8-9dcac9471e79" name="Moore Automotive" url="http://themarsstore.ca">
@@ -33,6 +36,7 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="0227a78c-03ff-4285-bef4-f70903d24fa8" name="steinmanfinancialnetwork.com" url="http://steinmanfinancialnetwork.com/">
@@ -40,6 +44,7 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="86b57622-7ce1-4f19-b58a-3f017b649160" name="crgraphics" url="http://crgraphics.ca">
@@ -47,6 +52,7 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="d4d3fe58-50ff-4a3e-ab34-7723d241f2ff" name="CountryRoad" url="http://countryroadgraphics.com">
@@ -54,6 +60,7 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" maxConnections="8" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="c22b6eba-dc8c-40f0-9ff9-d31d39e7b7ca" name="Kearney" url="http://kearneyplanters.com">
@@ -61,6 +68,7 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="6637b40d-6878-4a27-855e-98517aaab55a" name="HHBH" url="http://hhbh.ca">
@@ -68,6 +76,7 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="9e1e3593-d76c-4586-9f92-761e281c9454" name="Previewserver (LG2)" url="http://previewserver.net">
@@ -75,6 +84,7 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
