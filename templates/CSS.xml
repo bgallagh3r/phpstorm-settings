@@ -1,28 +1,18 @@
 <templateSet group="CSS">
   <template name="ir" value="text-indent: 100%;&#10;white-space: nowrap;&#10;overflow: hidden;&#10;display:block;" description="Image Replacement" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_RULESET_LIST" value="true" />
       <option name="CSS" value="true" />
     </context>
   </template>
   <template name="&amp;hf" value="&amp;:hover, &amp;:focus {&#10;$END$&#10;}" description="Hover &amp; Focus" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_RULESET_LIST" value="true" />
       <option name="CSS" value="true" />
     </context>
   </template>
   <template name="cf" value="$NAME$:before, $NAME$:after { content: &quot;&quot;; display: table; line-height: 0; }&#10;$NAME$:after { clear: both; }&#10;$NAME$ { *zoom: 1; }" description="Clearfix" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue=".clearfix" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_RULESET_LIST" value="true" />
       <option name="CSS" value="true" />
       <option name="PHP" value="true" />
     </context>
