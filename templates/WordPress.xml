@@ -1,0 +1,9 @@
+<templateSet group="WordPress">
+  <template name="wpquery" value="$VAR$ = new WP_Query();&#10;$VAR$-&gt;query($ARGS$);&#10;while ($VAR$-&gt;have_posts()) : $VAR$-&gt;the_post();&#10;the_content();  // Put Loop Stuff Here&#10;endwhile;" description="Custom Query" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="recentPosts" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="'showposts=1&amp;cat=3'" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
