@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="c905e21c-d9fc-49c5-9910-2b3e2730c811" name="Kuceras" url="http://previewserver2.net">
-        <fileTransfer host="previewserver2.net" port="21" password="dfeadf8bdf8edf8fdf9edff1df83dffbdfecdf83dfd3dffc" username="previews">
+        <fileTransfer host="previewserver2.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -13,10 +13,10 @@
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
       <webServer id="a20d0496-f4ff-49eb-a6f8-0e7561a75451" name="Homestead" url="http://homestead.app:8000">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" />
       </webServer>
       <webServer id="9d7cb9f8-88a4-4520-80a9-9f4cef7c91e0" name="Previewserver2" url="http://previewserver2.net">
-        <fileTransfer host="previewserver2.net" port="22" rootFolder="/home/previews/public_html" accessType="SFTP" password="dfeadf8bdf8edf8fdf9edff1df83dffbdfecdf83dfd3dffc" username="previews">
+        <fileTransfer host="previewserver2.net" port="22" rootFolder="/home/previews/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -24,7 +24,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="61c4bb19-127a-4bf4-a388-ff2f30f0c928" name="Okes" url="http://okesauto.ca">
-        <fileTransfer host="okesauto.ca" port="22" rootFolder="/home/okesauto" accessType="SFTP" password="dfc8dfc8df9edfcddffadfc3dfcbdfeedf9edfeddffcdff8dfdedfc1" username="okesauto">
+        <fileTransfer host="okesauto.ca" port="22" rootFolder="/home/okesauto" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -32,7 +32,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="36ab0c04-4546-4331-96d8-9dcac9471e79" name="Moore Automotive" url="http://themarsstore.ca">
-        <fileTransfer host="themarsstore.ca" port="21" rootFolder="/public_html" password="df93dfc7dffadff0dfcedf8cdfe6df9ddffedfe4dfcedfcf" username="mars">
+        <fileTransfer host="themarsstore.ca" port="21" rootFolder="/public_html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -40,7 +40,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="0227a78c-03ff-4285-bef4-f70903d24fa8" name="steinmanfinancialnetwork.com" url="http://steinmanfinancialnetwork.com/">
-        <fileTransfer host="steinmanfinancialnetwork.com" port="21" rootFolder="/public_html" password="df8edfc4dfcddfe6dff7dfe2df81dfdbdfeadffbdf89dff7" username="steinman">
+        <fileTransfer host="steinmanfinancialnetwork.com" port="21" rootFolder="/public_html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -48,7 +48,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="86b57622-7ce1-4f19-b58a-3f017b649160" name="crgraphics" url="http://crgraphics.ca">
-        <fileTransfer host="crgraphics.ca" port="22" rootFolder="/home/crgraph/public_html" accessType="SFTP" password="dfcfdfd2df9cdfc2dfffdffcdf9edfd0dfe0dfc4df95dfd9" username="crgraph">
+        <fileTransfer host="crgraphics.ca" port="22" rootFolder="/home/crgraph/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -56,7 +56,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="d4d3fe58-50ff-4a3e-ab34-7723d241f2ff" name="CountryRoad" url="http://countryroadgraphics.com">
-        <fileTransfer host="countryroadgraphics.com" port="22" rootFolder="/home/crg/public_html" accessType="SFTP" password="dfd3dfc5dfd0df98dff3df97dff2df93dfdedfffdfe0dfff" username="crg">
+        <fileTransfer host="countryroadgraphics.com" port="22" rootFolder="/home/crg/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" maxConnections="8" />
           </advancedOptions>
@@ -64,7 +64,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="c22b6eba-dc8c-40f0-9ff9-d31d39e7b7ca" name="Kearney" url="http://kearneyplanters.com">
-        <fileTransfer host="kearneyplanters.com" port="22" rootFolder="/home/kearneyplanters" accessType="SFTP" password="dffedf99dfc4dfd0dfe4dff2dfe1dfd8dfc8dfd8df99dfeddfc1dff0" username="kearneyplanters">
+        <fileTransfer host="kearneyplanters.com" port="22" rootFolder="/home/kearneyplanters" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -72,7 +72,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="6637b40d-6878-4a27-855e-98517aaab55a" name="HHBH" url="http://hhbh.ca">
-        <fileTransfer host="hhbh.ca" port="22" rootFolder="/home/hhbh" accessType="SFTP" password="dfdddfd1dffedf9cdfebdf82dfefdf9cdfc6dff0dffcdf9b" username="hhbh">
+        <fileTransfer host="hhbh.ca" port="22" rootFolder="/home/hhbh" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -80,7 +80,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="9e1e3593-d76c-4586-9f92-761e281c9454" name="Previewserver (LG2)" url="http://previewserver.net">
-        <fileTransfer host="previewserver.net" port="22" rootFolder="/home/previewserver/public_html" accessType="SFTP" password="df99dfd2dfe1dfc6df89dfebdfdddfccdfc2dfd7dfe9df99" username="previewserver">
+        <fileTransfer host="previewserver.net" port="22" rootFolder="/home/previewserver/public_html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -88,5 +88,8 @@
         </fileTransfer>
       </webServer>
     </option>
+  </component>
+  <component name="webServersAuthStorage">
+    <data>AAAE0FPBzKrYg/0ts2xebaXvEsFEo0kIs488vpE8KAYbD7fhnVU1Reakcj3t8k8+KmTX0644OcPAmnXPTDhgUS/bohGGHtXebwMWlYUsDbzjE/ugr4/NqSS//m9V0Rr5GF91pepAOa4WQcd0kxpQsZetVdHlVNfMn4MkgNF97tuwlLw3nBxIJuSZUfpv8K3lbmb67K555e1gXIKMKnoisvNV66CZetTjJbGt6soBOOz17M7coJ/UDrSt2l0zpUmamglXLISEDbeHal3pprEjqf2iHRsJRTNr7CyaUfdKlP7IWCJfG0WJULZVksv6XvkzGSpRP4guXOVCbhK9eJaYBlubY+2xw4kjcYJ8JMLTxEzbzg0/4J+bvcfti/rYvZhtQd6941VNQDdq8ShcKmpL8nKdQ2g1yzgfcdO7AVRtbcwiCJYVLn4boZEHtRhpv4Cgj9t2nr1ttWaraxXZJGI0b2dXff5BaSgyprF7nALSiGpFPijoyza33o7mNfa0RemLAm4iYcruvxh1ZC4NXH3xfhKwftUAEd1RUeHQbHu7pyZkRhaBKrYoFsZdmVjAoViti/NInlHLZfHT6asn3sczOrv9TmhwhyqVQsACCODN8sHWd4wMVMCFymQeBwtsGGgVY5pbxlHWHVK/W2UXBsbe9/DobAR+kgRLCpoIeWUaVzcuAskhniGPRAHkxRpxbHwxV9b/UkhgAMY1lsqpeTypJfaWyhwLxjmyU5bTDP4CjWZW9v0NiPEjbKEcjtrWSGvb/2xWH+P3GeXAj+JdyaQUilRs1Fiyq5ZCPONi8ru2Lo6+R4/egatz9jhyaRKLzZuGvB5sqiEF+7VrYw6NJlBeqV2hgB9YGAKtKdPccDnJs+o+hWaPeOvle9jDD30+7fwGtM7Vp3FJBC1k+2VJQWVABMe8UE7o2FVokBlIVgqhba17fw6UdHQS12k100G7+7+oP2J7LCVCvftjvClzI5qAjMTo4YFC8KxI7fbjvwmtN49xxbimNn7YTsLCJd41A63ILNM8ojQTNNJQLGEKz5wJSSdsm3fbhCP84pf4+qBikDFXG4XTmrhUnpAycoAJx9kkrxG+h1LXAVjp52Fk5FaWKW/ZFHEgbrSDuGnKqtJhOwImZYoWe1KghoZXVdBoQXs8fp45PkwY8LSBjD+/WQ8ZveJ8NVrF7CHYXtl70WcmOKU7VWHJS87TiNHsJu7qbO4eddW5M+CJ7VEIaAC/yHZHeYOK0o0DqXTfSUoRW1auNDI6iT7HgQ2sOIHWSEe/uEN5WVAnXrsIMvnmwJQrJ23R7iucIh4NkhDi8hZZDoMcEXceieKZyWN9Mb/R0PFfPa+EtrWrtr7kUnK4OChbrRYL8591WcSISuEY2IKhrzlYEa2TGI5pBW4cEB9QSraizle7JhEoPqO5b+XOo8zWahqKWirT7cxoeXU56AsOtPvxrJkKCJ9Z25jRCFheco8Am69Zo/rP1W1etQ2E/yaiG9mHfZSrB4sUm9OHpSXFl/86QIMULKofxOVYYhxwvO+pebDDaTOwcCN+rq9aeF9IPcUtU+8xoyzArdBsWFCDYIEceImEISeC1qT2+/bwvrZs6Mjlt9lMnwyol+TR1kglJgm5Oke3UlaXbCwv/siODtM1qgkrnwbFXH06ia74c2SVEhUWizLO8Q==</data>
   </component>
 </application>
