@@ -1,71 +1,63 @@
 <templateSet group="PHP">
   <template name="eco" value="echo '$END$';" description="'echo' statement" toReformat="true" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
   </template>
   <template name="pubf" value="public function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
   </template>
   <template name="pubsf" value="public static function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="public static function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
   </template>
   <template name="prof" value="protected function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="protected function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
   </template>
   <template name="prosf" value="protected static function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="protected static function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
   </template>
   <template name="prif" value="private function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="private function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
   </template>
   <template name="prisf" value="private static function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="private static function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
   </template>
   <template name="t" value="$this-&gt;$FUNCTION$($ARGUMENTS$)$CALL$" description="generate this" toReformat="false" toShortenFQNames="true">
     <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGUMENTS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CALL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="pp" value="private $PROPERTY$;" description="private property" toReformat="false" toShortenFQNames="true">
     <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="for" value="for($INITIAL_VALUE$; $END_VALUE$; $INCREMENTER$) {&#10;    $BODY$&#10;}" description="'for' statement" toReformat="false" toShortenFQNames="true">
@@ -74,41 +66,13 @@
     <variable name="INCREMENTER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="true" />
-      <option name="HTML" value="true" />
-      <option name="XSL_TEXT" value="true" />
-      <option name="XML" value="true" />
-      <option name="XML_TEXT" value="true" />
-      <option name="JSON" value="true" />
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_RULESET_LIST" value="true" />
-      <option name="CSS" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="true" />
-      <option name="PHP" value="true" />
-      <option name="PHP Comment" value="true" />
-      <option name="PHP String Literal" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="fori" value="for ($i = 0; $i &lt; $MAX$; $i++) {&#10;    $SELECTION$$END$&#10;}" description="'for' statement with defaults" toReformat="false" toShortenFQNames="true">
     <variable name="MAX" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="PHP" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="sc" value="Schema::table('$TABLE$', function($t) {&#10;    $t-&gt;create();&#10;    $t-&gt;increments('id');&#10;    $END$&#10;});" description="Schema Create" toReformat="true" toShortenFQNames="true">
@@ -132,35 +96,13 @@
   <template name="pre" value="echo &quot;&lt;pre&gt;&quot;;&#10;print_r($VAR$);&#10;echo &quot;&lt;/pre&gt;&quot;;" description="Pre / Print_R" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="$var" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
-      <option name="PHP String Literal" value="true" />
     </context>
   </template>
   <template name="php" value="&lt;?php $END$ ?&gt;" description="PHP Open/Close tags" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="true" />
-      <option name="HTML" value="true" />
-      <option name="XSL_TEXT" value="true" />
-      <option name="XML" value="true" />
-      <option name="XML_TEXT" value="true" />
-      <option name="JSON" value="true" />
-      <option name="SQL" value="true" />
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_RULESET_LIST" value="true" />
-      <option name="CSS" value="true" />
-      <option name="CUCUMBER_FEATURE_FILE" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="true" />
-      <option name="CoffeeScript" value="true" />
-      <option name="PHP" value="true" />
-      <option name="PHP Comment" value="true" />
-      <option name="PHP String Literal" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -177,55 +119,11 @@
   </template>
   <template name="?==" value="&lt;?= $END$ ?&gt;" description="PHP Echo Short Tag" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="true" />
-      <option name="HTML" value="true" />
-      <option name="XSL_TEXT" value="true" />
-      <option name="XML" value="true" />
-      <option name="XML_TEXT" value="true" />
-      <option name="JSON" value="true" />
-      <option name="SQL" value="true" />
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_RULESET_LIST" value="true" />
-      <option name="CSS" value="true" />
-      <option name="Twig" value="true" />
-      <option name="CUCUMBER_FEATURE_FILE" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="true" />
-      <option name="CoffeeScript" value="true" />
-      <option name="PHP" value="true" />
-      <option name="PHP Comment" value="true" />
-      <option name="PHP String Literal" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="php=" value="&lt;?= $END$ ?&gt;" description="PHP Echo Short Tag" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="true" />
-      <option name="HTML" value="true" />
-      <option name="XSL_TEXT" value="true" />
-      <option name="XML" value="true" />
-      <option name="XML_TEXT" value="true" />
-      <option name="JSON" value="true" />
-      <option name="SQL" value="true" />
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_RULESET_LIST" value="true" />
-      <option name="CSS" value="true" />
-      <option name="Twig" value="true" />
-      <option name="CUCUMBER_FEATURE_FILE" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="true" />
-      <option name="CoffeeScript" value="true" />
-      <option name="PHP" value="true" />
-      <option name="PHP Comment" value="true" />
-      <option name="PHP String Literal" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>

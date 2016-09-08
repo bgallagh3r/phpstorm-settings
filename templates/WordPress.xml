@@ -1,0 +1,26 @@
+<templateSet group="WordPress">
+  <template name="funcasset" value="/**&#10; * Easy path to theme's assets dir.&#10; *&#10; * @return string&#10; */&#10;function asset($path = null)&#10;{&#10;  echo get_template_directory_uri() . &quot;/assets&quot;.$path;&#10;}" description="Shortened function to provide URLS to Theme Assets" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="asset" value="&lt;?php asset(); ?&gt;" description="Asset function shortcut" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="wpquery" value="$$args = [&#10;    'post_type' =&gt; 'post',&#10;    'posts_per_page' =&gt; 5,&#10;];&#10;$$$POSTS$ = new WP_Query();&#10;$$$POSTS$-&gt;query($$args);&#10;while ($$$POSTS$-&gt;have_posts()) : $$$POSTS$-&gt;the_post();&#10;$END$&#10;endwhile;" description="New WP_Query" toReformat="true" toShortenFQNames="true">
+    <variable name="POSTS" expression="" defaultValue="recentPosts" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="wpmigrate" value="UPDATE $PREFIX$_options SET option_value = replace(option_value, 'http://$OLD$', 'http://$NEW$') WHERE option_name = 'home' OR option_name = 'siteurl';&#10;UPDATE $PREFIX$_posts SET guid = replace(guid, 'http://$OLD$','http://$NEW$);&#10;UPDATE $PREFIX$_posts SET post_content = replace(post_content, 'http://$OLD$', 'http://$NEW$');" description="SQL Migration" toReformat="true" toShortenFQNames="true">
+    <variable name="PREFIX" expression="" defaultValue="&quot;wp&quot;" alwaysStopAt="false" />
+    <variable name="OLD" expression="" defaultValue="&quot;www.old-domain.com&quot;" alwaysStopAt="false" />
+    <variable name="NEW" expression="" defaultValue="&quot;www.new-domain.com&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
