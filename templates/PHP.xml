@@ -184,7 +184,6 @@
       <option name="XML_TEXT" value="true" />
       <option name="JSON" value="true" />
       <option name="SQL" value="true" />
-      <option name="JSP" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="true" />
       <option name="CSS_DECLARATION_BLOCK" value="true" />
       <option name="CSS_RULESET_LIST" value="true" />
@@ -200,7 +199,6 @@
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="true" />
       <option name="PHP String Literal" value="true" />
-      <option name="HAML" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -213,7 +211,6 @@
       <option name="XML_TEXT" value="true" />
       <option name="JSON" value="true" />
       <option name="SQL" value="true" />
-      <option name="JSP" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="true" />
       <option name="CSS_DECLARATION_BLOCK" value="true" />
       <option name="CSS_RULESET_LIST" value="true" />
@@ -229,7 +226,6 @@
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="true" />
       <option name="PHP String Literal" value="true" />
-      <option name="HAML" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
