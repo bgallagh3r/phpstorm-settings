@@ -10,7 +10,9 @@
         </fileTransfer>
       </webServer>
       <webServer id="a20d0496-f4ff-49eb-a6f8-0e7561a75451" name="Homestead" url="http://homestead.app:8000">
-        <fileTransfer accessType="LOCAL" />
+        <fileTransfer host="192.168.10.10" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
       </webServer>
       <webServer id="9d7cb9f8-88a4-4520-80a9-9f4cef7c91e0" name="Previewserver2" url="http://previewserver2.net">
         <fileTransfer host="previewserver2.net" port="22" rootFolder="/home/previews/public_html" accessType="SFTP">
@@ -85,8 +87,5 @@
         </fileTransfer>
       </webServer>
     </option>
-  </component>
-  <component name="webServersAuthStorage">
-    <data>AAAE0FdhwY93j33Y2vZxpEIK/QdFwCBGeL0HnuLGasPPXkM0c2fFnY/5CsLzvzvFIJ+okdxxW68sKtKW94dvgZ+P7k5qutIGACB9ayygW6ZgbnGT6Apq12ch3OICsRckjDWtJdga21F5blpH4LH+azVbqVlz39YLBIAFGCANgvXDu1kY/KmQNvXYW3Y0ym52hNTkgVK6OH5ERIMTQwMw5LdCPulaLCJVfe2g4GgAiTeWdQMRr/OOS7cLXEUC/EediggAx8Z5vNHbRhhc5ZHgOBXHHggCHqBmTeg1itOaAtMNxHbrWZMkF57P0bxcfU66TKE7r5l8uDLyP05PbPcy5TdISkkwud74fAWNc3siXKZT/LcwBl1T7fwOCwjc7SgCqTCCBYYiHfEMkjHsUpfFF2+MmtIyT09DjElXnm6FI+rZ8ytJCWOgDee4YNdk16W9tI4Us1g/RZAs2MMNmLnc8iZrGbGfDYx+DBhTNqaqRpDK5XE8oZUEryBCQiTDNYOLKoMCjpb4bhCxQJwZS1Wsaza62uzW00Ne0jpYEoCVyH0Fhy7FSfmQfDnRmfXeNHqAF0Nox0QpalFFE8qzP7ZPqGk6YqDs4iVp2wczToN0r+KgpaqrL+qovfDg47PM6AjXzNBAzeRMg/PKpEI0/i0v9GWuoofinVAGnFeFp1mx4O6Fi9JEAl/FY9bvQfVNWDfQcJ5XZCI48gWJUJGtwJHbZXAJ0uMilYIsoO99m7Zr/tEIb6WE0Jzilnoj3XITdTayoIZebG19EnvxaDQJZtl5yk1MGg/q6Rb+BE1ltpGekhw1mLhcQrWhCUUEfS39eanGf25zQGubafQX7jXE397gyMcRJqT219VRhUxTFyNieOQ2PyTrWkkiaxgWVRgIITDaJtsRauHI5CAkjRT9HNMl2BU5OIUrLsGgZfyn60gGf/8rOfZZFwvbS91bvT/6er431kXMbHYrblzosI6wB6VM74qIL6QQBePufEZjeZuRDs+yyN1v4avaFr/F1Gkqe5ibljXSOIUhWLWI6cPmNiJG7zU/dRB1/bopiybZiEBDNf0uAvg2/Ds4Fr+iBqhPFzjgb2T6uptYtymho6eqdqVsPv4Wo8s87Xc9IYNeeWq8tiB3T8qbEOHKAwhAsCZ+NldHqn3qrFSoiB73w4l0vIWU8RV3EM6sGoJqogFR76Jk6MlCnYXgOJCDpdE7PznBCKh5nanM3k/63kAfb8C1r7M9xxNvkouS6GO65aoyR6xbfe0vUl8c7lfYkR6OT/AA2dXIfVJapEQUP+t0qqooT+kK8GfYnnPjDQkyWTJsiipy4AdxaIQv+tvGhZ4Bx4tiBHrZT3AOpTqA3upH5LbYNdjCoaTAomUk+dsT9hcFO/8tPfzUCkyNZD/cdwtH4qJ2CT6HuU+5NiPG1/DtzAUylM8UchfyLgQ3buu8lSLT+HADX38X9F5eJQkTfrFQ/R23eQhrj2qXFZar9JpytOnACTc6h90AOKp63GhBeDRRByvwQbs17VUGYTZkKWhzEISXMBup8vjbk8NTl6IO4RdE/8p4q0LnATPe159mD1Z30uk4PCniPosI40/3zZR1PDpzz+CUrrc+uhlTpe+M9/aCyI1KrRZg/ff+iChoLcgq72sP5lAOft89un0iZhvOOPHf/mD6L4TRgg==</data>
   </component>
 </application>
