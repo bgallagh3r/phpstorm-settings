@@ -13,8 +13,8 @@
     <variable name="NAME" expression="" defaultValue=".clearfix" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
-      <option name="CSS" value="true" />
       <option name="PHP" value="true" />
+      <option name="CSS" value="true" />
     </context>
   </template>
 </templateSet>
