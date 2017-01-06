@@ -78,7 +78,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="9e1e3593-d76c-4586-9f92-761e281c9454" name="Previewserver (LG2)" url="http://previewserver.net">
+      <webServer id="9e1e3593-d76c-4586-9f92-761e281c9454" name="Previewserver" url="http://previewserver.net">
         <fileTransfer host="previewserver.net" port="22" rootFolder="/home/previewserver/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
