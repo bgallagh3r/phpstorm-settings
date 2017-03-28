@@ -12,9 +12,9 @@
   <template name="cf" value="$NAME$:before, $NAME$:after { content: &quot;&quot;; display: table; line-height: 0; }&#10;$NAME$:after { clear: both; }&#10;$NAME$ { *zoom: 1; }" description="Clearfix" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue=".clearfix" alwaysStopAt="true" />
     <context>
+      <option name="CSS" value="true" />
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
-      <option name="CSS" value="true" />
     </context>
   </template>
 </templateSet>
