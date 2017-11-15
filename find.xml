@@ -19,16 +19,16 @@
       <mask>js</mask>
       <mask>*.js</mask>
       <mask>*.j</mask>
-      <mask>*.s</mask>
-      <mask>*.sc</mask>
-      <mask>*.scs</mask>
-      <mask>*.scss</mask>
       <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.pg</mask>
+      <mask>*.phpo</mask>
+      <mask>*.scss</mask>
+      <mask>*.scs</mask>
+      <mask>*.sc</mask>
+      <mask>*.s</mask>
+      <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.ph</mask>
-      <mask>*.phpo</mask>
       <mask>*.php</mask>
     </recentFileMasks>
   </component>
