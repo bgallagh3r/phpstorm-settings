@@ -7,7 +7,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="d4d3fe58-50ff-4a3e-ab34-7723d241f2ff" name="CountryRoad" url="http://countryroadgraphics.com">
-        <fileTransfer host="countryroadgraphics.com" port="22" rootFolder="/home/crg/public_html" accessType="SFTP">
+        <fileTransfer host="countryroadgraphics.com" port="22" rootFolder="/home/crg/public_html/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" maxConnections="8" />
           </advancedOptions>
