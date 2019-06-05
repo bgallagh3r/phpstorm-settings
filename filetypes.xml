@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping pattern="error_log" type="Native" />
       <mapping ext="csv" type="Native" />
       <mapping ext="sqlite" type="Native" />
       <mapping pattern="Company" type="PHP" />
@@ -9,6 +10,7 @@
       <mapping pattern="Gemfile" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping ext="icls" type="PLAIN_TEXT" />
+      <removed_mapping ext="csv" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
