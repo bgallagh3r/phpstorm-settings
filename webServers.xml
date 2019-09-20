@@ -1,5 +1,11 @@
 <application>
   <component name="WebServers">
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions hostKeyCheckingLevel="NO" hashKnownHosts="false">
+        <option name="hashHost" value="false" />
+        <option name="hostKeyCheckingLevel" value="NO" />
+      </SftpAdvancedOptions>
+    </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="a20d0496-f4ff-49eb-a6f8-0e7561a75451" name="Homestead" url="http://homestead.app:8000">
         <fileTransfer host="192.168.10.10" port="22" accessType="SFTP">
