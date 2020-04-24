@@ -4,6 +4,7 @@
       <sshConfig authType="PASSWORD" host="192.168.10.10" id="aaa1677c-f4d6-47f3-aec9-68ddee3f7a70" port="22" customName="Homestead" nameFormat="CUSTOM" username="vagrant" />
       <sshConfig authType="PASSWORD" host="countryroadgraphics.com" id="d55cec2c-dcf2-4df2-b540-d9c32a14e069" port="22" customName="CountryRoad" nameFormat="CUSTOM" username="crg" />
       <sshConfig authType="PASSWORD" host="previewserver.net" id="e921a523-fe6c-4e8f-a92f-3df966bcb421" port="22" customName="Previewserver" nameFormat="CUSTOM" username="previewserver" />
+      <sshConfig authType="PASSWORD" host="previewserver.net" id="62e6fa72-ee65-4536-bef2-5248f81cceb3" port="22" customName="Previewserver" nameFormat="CUSTOM" username="previewserver" />
     </configs>
   </component>
 </application>
