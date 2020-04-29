@@ -8,24 +8,20 @@
     </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="a20d0496-f4ff-49eb-a6f8-0e7561a75451" name="Homestead" url="http://homestead.app:8000">
-        <fileTransfer host="192.168.10.10" port="22" accessType="SFTP">
-          <option name="port" value="22" />
-        </fileTransfer>
+        <fileTransfer accessType="SFTP" sshConfigId="cdadda83-597b-46bd-878e-eb01d8d75e80" sshConfig="Homestead" />
       </webServer>
       <webServer id="d4d3fe58-50ff-4a3e-ab34-7723d241f2ff" name="CountryRoad" url="http://countryroadgraphics.com">
-        <fileTransfer host="countryroadgraphics.com" port="22" rootFolder="/home/crg/public_html/" accessType="SFTP">
+        <fileTransfer rootFolder="/home/crg/public_html/" accessType="SFTP" host="countryroadgraphics.com" port="22" sshConfigId="d55cec2c-dcf2-4df2-b540-d9c32a14e069" sshConfig="CountryRoad">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" maxConnections="8" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="9e1e3593-d76c-4586-9f92-761e281c9454" name="Previewserver" url="http://previewserver.net">
-        <fileTransfer host="previewserver.net" port="22" rootFolder="/home/previewserver/" accessType="SFTP">
+        <fileTransfer rootFolder="/home/previewserver/" accessType="SFTP" host="previewserver.net" port="22" sshConfigId="e33b0ed6-5340-4f50-b2a0-0df69d237a7b" sshConfig="Previewserver">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
