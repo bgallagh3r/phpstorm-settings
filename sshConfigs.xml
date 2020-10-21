@@ -1,9 +1,15 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="192.168.10.10" id="aaa1677c-f4d6-47f3-aec9-68ddee3f7a70" port="22" customName="Homestead" nameFormat="CUSTOM" username="vagrant" />
-      <sshConfig authType="PASSWORD" host="countryroadgraphics.com" id="d55cec2c-dcf2-4df2-b540-d9c32a14e069" port="22" customName="CountryRoad" nameFormat="CUSTOM" username="crg" />
-      <sshConfig authType="PASSWORD" host="previewserver.net" id="e33b0ed6-5340-4f50-b2a0-0df69d237a7b" port="22" customName="Previewserver" nameFormat="CUSTOM" username="previewserver" />
+      <sshConfig authType="PASSWORD" host="192.168.10.10" id="aaa1677c-f4d6-47f3-aec9-68ddee3f7a70" port="22" customName="Homestead" nameFormat="CUSTOM" username="vagrant">
+        <option name="customName" value="Homestead" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="localhost" id="d55cec2c-dcf2-4df2-b540-d9c32a14e069" port="22" customName="CountryRoad" nameFormat="CUSTOM" username="crg">
+        <option name="customName" value="CountryRoad" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="previewserver.net" id="e33b0ed6-5340-4f50-b2a0-0df69d237a7b" port="22" customName="Previewserver" nameFormat="CUSTOM" username="previewserver">
+        <option name="customName" value="Previewserver" />
+      </sshConfig>
     </configs>
   </component>
 </application>
