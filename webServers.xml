@@ -11,7 +11,7 @@
         <fileTransfer accessType="SFTP" host="192.168.10.10" port="22" sshConfigId="aaa1677c-f4d6-47f3-aec9-68ddee3f7a70" sshConfig="Homestead" />
       </webServer>
       <webServer id="d4d3fe58-50ff-4a3e-ab34-7723d241f2ff" name="CountryRoad" url="http://countryroadgraphics.com">
-        <fileTransfer rootFolder="/home/crg/public_html/" accessType="SFTP" host="localhost" port="22" sshConfigId="d55cec2c-dcf2-4df2-b540-d9c32a14e069" sshConfig="CountryRoad">
+        <fileTransfer rootFolder="/home/crg/public_html/" accessType="SFTP" host="auction.jaauction.ca" port="22" sshConfigId="d55cec2c-dcf2-4df2-b540-d9c32a14e069" sshConfig="CountryRoad">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" maxConnections="8" />
           </advancedOptions>
