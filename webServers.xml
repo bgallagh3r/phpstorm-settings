@@ -6,24 +6,5 @@
         <option name="hostKeyCheckingLevel" value="NO" />
       </SftpAdvancedOptions>
     </sftpAdvancedGlobalOptions>
-    <option name="servers">
-      <webServer id="a20d0496-f4ff-49eb-a6f8-0e7561a75451" name="Homestead" url="http://homestead.app:8000">
-        <fileTransfer accessType="SFTP" sshConfigId="aaa1677c-f4d6-47f3-aec9-68ddee3f7a70" sshConfig="Homestead" />
-      </webServer>
-      <webServer id="d4d3fe58-50ff-4a3e-ab34-7723d241f2ff" name="CountryRoad" url="http://countryroadgraphics.com">
-        <fileTransfer rootFolder="/home/crg/public_html/" accessType="SFTP" sshConfigId="d55cec2c-dcf2-4df2-b540-d9c32a14e069" sshConfig="CountryRoad">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" maxConnections="8" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="9e1e3593-d76c-4586-9f92-761e281c9454" name="Previewserver" url="http://previewserver.net">
-        <fileTransfer rootFolder="/home/previewserver/" accessType="SFTP" sshConfigId="e33b0ed6-5340-4f50-b2a0-0df69d237a7b" sshConfig="Previewserver">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-    </option>
   </component>
 </application>
